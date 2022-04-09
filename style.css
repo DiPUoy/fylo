@@ -1,0 +1,446 @@
+/* basic tag for sortcut */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:hsl(219, 30%, 18%) ;
+    color: white !important;
+    font-family: 'roboto';
+    overflow-x: hidden;
+}
+button{
+    font-family: 'roboto';
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.flex{
+    display: flex;
+}
+.justify-content-sb{
+    justify-content: space-between;
+}
+.justify-content-c{
+    justify-content: center;
+}
+/* end of basic tag for sortcut */
+/* nav bar css */
+nav{
+    padding: 2.5rem;
+}
+nav img{
+    height: 2.5rem;
+}
+
+nav ul{
+    gap: 15px;
+}
+
+nav li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* end of nav bar css */
+/* section 1  */
+.section-one{
+    text-align: center;
+}
+.section-one img{
+    width: 550px;
+    height: auto;
+    margin-top: 10vh;
+    margin-bottom: 1.4rem;
+}
+.hone{
+    width: 475px !important;
+    font-size: 1.5rem !important;
+    font-weight: bold;
+    margin: auto;
+}
+.section-one div p:nth-child(2){
+    max-width: 475px; 
+    margin: auto;
+    margin-top: 1.2rem;
+}
+.curvy{
+    width: 100%;
+    /* height: 50vh; */
+    position: relative;
+    top: -295px;
+    z-index: -1;
+}
+button{
+    border-radius: 56px;
+    height: 50px;
+    margin-top: 4vh;
+    background-color: hsl(198, 60%, 50%);
+    border: none;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer !important;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+button:hover{
+    background-color: hsl(176, 68%, 64%);
+}
+/* end of section one */
+/* section 2 */
+.sec-two{
+    background-color: #181f2b;    
+    /* height: 600px; */
+    margin-top: -300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    padding-bottom: 2rem;
+    padding: 2rem;
+}
+.sec-two .card{
+    width: 384px;
+    text-align: center;
+}
+.sec-two .card p{
+    max-width: 18rem;
+    margin: auto;
+}
+/* end of section-2 */
+/* section 3 */
+.sec-three{
+    background-color: #181f2b;
+    padding: 5vh;
+    padding-top: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 90px;
+    justify-content: center;
+    align-items: center;
+}
+.sec-three .illustration{
+    width: 430px;
+}
+.sec-three div{
+    width: 30rem;
+}
+.sec-three h1{
+    width: 320px;
+    font-size: 30px;
+}
+.sec-three p:nth-child(1){
+    max-width: 492px;
+}
+.sec-three p:nth-child(2){
+    max-width: 524px;
+}
+.sec-three a{
+    margin-top: 20px;
+    color: hsl(176, 68%, 64%) !important;
+    display: flex;
+    border-bottom: 1px solid hsl(176, 68%, 64%);
+    width: fit-content;
+}
+.sec-three a:hover{
+    color: white !important;
+    border-bottom: 1px solid white;
+}
+.sec-three a img{
+    margin-left: 5px;
+    width: 20px;
+}
+/* end of section 3 */
+/* section 4 start */
+.sec-four{
+    background-color: #181f2b;
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    padding: 2rem;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 250px;
+    /* position: relative; */
+}
+.sec-four .card{
+    padding: 30px;
+    width: 320px;
+    height: 180px !important;
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 10px;
+    z-index: 1;
+    box-shadow: 4px 7px 20px 0px #00000045;
+}
+.sec-four .card .btm{
+    display: flex;
+    gap: 20px;
+    margin-top: 16%;
+}
+.sec-four .card .btm p{
+    font-weight: 700;
+}
+.sec-four .card div img{
+    border-radius: 100px;
+    height: 3rem;
+}
+.quotes{
+    position: absolute;
+    transform: translate(-586px , -26px);
+}
+/* end of section 4 */
+/* get-early-access */
+.get-early-access{
+    width: 680px;
+    background-color: hsl(217, 28%, 15%);
+    color: white;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 4px 7px 20px 0px #000000;
+    margin-top: 150px;
+    z-index: 1;
+    position: absolute;
+    margin: auto;
+    /* top: -150px; */
+    left: 0;
+    right: 0;
+    transform: translateY(-170px);
+}
+.get-early-access input{
+    width: 400px;
+    height: 40px;
+    border-radius: 100px;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    outline: none;
+    font-family: 'roboto';
+    margin-right: 10px;
+}
+/* end of get-early-access */
+/* sec-five */
+.sec-five{
+    background-color: hsl(216, 53%, 9%);
+    position: relative;
+    /* height: 400px; */
+    width: 100%;
+    /* transform: translateY(-308px); */
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+.sec-five .first , .secound{
+    width: 345px;
+    padding: 50px;
+}
+.sec-five .first img{
+    height: 2.5rem;
+    margin-bottom: 1rem;
+}
+.sec-five .first div{
+    display: flex;
+}
+.sec-five .first div img{
+    height: 20px;
+    margin-right: 1rem;
+}
+.secound{
+    margin-top: 65px;
+    width: 300px;
+}
+.secound div{
+    margin-bottom: 1rem;
+    display: flex;
+}
+.secound div img{
+    margin-right: 3rem;
+    width: 25px;
+    height: 20px;
+}
+.third,.forth{
+    margin-top: 110px;
+    margin-right: 60px;
+    line-height: 32px;
+}
+.third li,.forth li{
+    cursor: pointer;
+}
+.third li:hover,.forth li:hover{
+    font-weight: 700;
+}
+/* end of sec-five */
+/* media quierys */
+@media screen and (max-width:900px) {
+    nav img{
+        height: 1.7rem;
+    }
+    nav{
+        padding: 1.6rem;
+    }
+}
+@media screen and (max-width:900px) {
+    .sec-two{
+        padding-top: 250px;
+    }
+}
+@media screen and (max-width:600px){
+    .section-one img{
+        width: 303px;
+    }
+    .hone{
+        /* width: 40vh !important; */
+        margin: auto;
+    }
+    .section-one div p:nth-child(2) {
+        width: 320px;
+    }
+    .bgcurvy{
+        height: 25vh;
+        background-image: url(bg-curvy-mobile.svg) !important;
+    }
+    .sec-five{
+        padding-top: 35vh;
+    }
+}
+@media screen and (max-width:450px){
+    .hone{
+        width: 18rem !important;
+    }
+
+}
+@media screen and (max-width:500px) {
+    body{
+        overflow-x: hidden;
+    }
+    .sec-three{
+        padding: 3vh;
+        padding-top: 7vh;
+    }
+    .sec-three .illustration{
+        width: 18rem;
+    }
+    .sec-three h1{
+        width: 320px;
+        font-size: 21px;
+    }    .sec-five{
+        padding-top: 45vh !important;
+    }
+}
+@media screen and (max-width:900px){
+    .get-early-access{
+        width: 70%;
+    }
+    .get-early-access input{
+        width: 85%;
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:1300px){
+    .quotes{
+        transform: translate(-382px , -28px);
+    }
+}
+@media screen and (max-width:865px){
+    .quotes{
+        transform: translate(-171px , -28px);
+    }
+}
+@media screen and (max-width:400px){
+    .quotes{
+        transform: translate(-140px , -28px);
+    }
+    .first,.secound{
+        width: fit-content !important;
+    }
+}
+@media screen and (max-width:1000px){
+    .sec-five{
+        display: block;
+    }
+    .sec-five .first,.secound{
+        padding: 2rem;
+    }
+    .secound{
+        margin-top: 5px;
+    }
+    .sec-five ul{
+        padding: 2rem;
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width:330px){
+    nav .flex{
+        display: block;
+    }
+    .section-one img{
+        width: 20ch;
+    }
+    .section-one .hone{
+        font-size: 1.2rem !important;
+        width: 14rem !important;
+    }
+    .section-one div p:nth-child(2) {
+        width: 216px;
+        font-size: inherit;
+    }
+    .sec-three .illustration {
+        width: 13rem;
+    }
+    .sec-three h1 {
+        width: 208px;
+        font-size: 21px;
+    }
+    .sec-four .card {
+        height: fit-content !important;
+    }
+    .quotes {
+        transform: translate(-90px , -28px);
+    }
+    .get-early-access {
+        width: 60%;
+    }
+    .get-early-access h1{
+        font-size: 1.4rem;
+    }
+    .sec-five .first img {
+        height: 1.5rem;
+    }
+    .get-early-access p{
+        font-size: inherit;
+    }
+    .secound div img {
+        margin-right: 1rem;
+    }
+    .sec-five {
+        padding-top: 17rem !important;
+    }
+}
+@media screen and (max-width:239px){
+    body::before{
+        content:'Unsupported screen width';
+        position: fixed;
+        background-color: hsl(219, 30%, 18%);
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+       font-family: 'Times New Roman', Times, serif;
+        display: flex;
+        justify-content: center;
+        padding-top: 50%;
+        font-size: 1rem;
+    }
+}
